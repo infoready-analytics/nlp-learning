@@ -9,3 +9,5 @@ You will need to install Anaconda 3 or Miniconda 3.
     - gensim=3.8
     - spacy=2.3
     - pytorch=1.8
+    - scikit-learn=0.24
+    - pandas=1.2
