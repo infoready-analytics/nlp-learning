@@ -6,10 +6,10 @@ The more "traditional" NLP techinques: tokenising, lemmatising, vectorising, n-g
 
 Go to [this page](nlp_basics.md) to get started. 
 
-# word2vec Embedding
-word2vec was one of the first steps of NLP model go "big" and "neural". Here we will explore utilising word2vec embeddings to enhance your NLP models. 
+# Word Embeddings
+Word embedding was one of the first steps of NLP model go "big" and "neural". Here we will explore utilising word embeddings to enhance your NLP models. 
 
-Go to [this page](word2vec.md) to get started. 
+Go to [this page](word_embedding.md) to get started. 
 
 # Modern Embedding
 Feature engineering is huge part of NLP, once we get text into vectorised representation (embedding), the rest is pretty straightforward. "Modern" NLP models are much better at generating said "embeddings". In this section, you will try a modern NLP model generated embedding and compare the results to your previous results with more "traditional" methods. 
