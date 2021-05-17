@@ -30,7 +30,7 @@ You can find many resources online if you want to learn more, for example this o
 Here's your first NLP task: 
 
 ## Task
-**Vectorise the sentiment dataset using Count Vectorising**
+Vectorise the sentiment dataset using Count Vectorising
 
 ## Tips
 - CountVectorizer from sklearn is an easy choice. 
@@ -40,7 +40,7 @@ Here's your first NLP task:
 Now that you have the vectorised representation of the sentiment dataset, here's the next step: 
 
 ## Task
-**Train a sentiment model using the Count Vectors, and record the results**
+Train a sentiment model using the Count Vectors, and record the results
 
 ## Tips
 - Pick a simple classification model: Logistic Regression, Tree based models etc. whichever you are comfortable with. 
@@ -50,7 +50,7 @@ Now that you have the vectorised representation of the sentiment dataset, here's
 There are a few obvious drawbacks for Count Vectorising: 
 - Since each word gets assigned a number, when the vocabulary is large, the training data matrix could have a huge number of columns. This could be a problem even for modern hardware. 
 - Variations of the same word got different numeric representations, for example: 'is', 'are', 'was', 'am' all convert to different numbers. 
-- "Meaningless" words got the same weights as more meaningful words. For example: 'to', 'am', 'be', 'with' etc. 
+- "Meaningless" words got the same weights as more meaningful words. For example: 'to', 'as', 'be', 'with' etc. 
 
 ## Task
 Improve your classification model based on Count Vectorisation using below techniques: 
@@ -60,6 +60,7 @@ Improve your classification model based on Count Vectorisation using below techn
 - Retrain your classification model and compare the results with Count Vectorisor based model
 
 ## Tips
+- Google and read about some of these techniques if you have no clue what they are, don't spend too much time. 
 - `gensim` package provides a few easy tools for stop words removal and lemmatising. 
 - Many packages provides TFIDF vectorisor, try `sklearn` or `gensim`
 
