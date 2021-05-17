@@ -139,3 +139,6 @@ notebook/*
 
 # .gitkeep to preserve empty folders
 !.gitkeep
+
+# ignore VS Code related stuff
+.DS_Store
