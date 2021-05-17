@@ -5,6 +5,11 @@ This repo contains resources and guidance that aims to get Data Scientists and M
 
 This course will be light on details. Figuring out how things work is part of the learning process. However making you frustrated is not the objective, if you ever feel frustrated or don't think you are heading the right direction, ask for help from your team. 
 
+# Contributing
+This course is built by the team and for the team. Feel free to contribute if you found anything incorrect or you thought something is worth adding. 
+
+While contributing, please adhere to the Git branching workflow, create a Pull Request and ask for peer review. 
+
 # Pre-requisites
 This course assumes you already have: 
 - Python programming skills
