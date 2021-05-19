@@ -1,5 +1,5 @@
 # Intro
-In this section, you will build a sentiment classification model with the more traditional NLP techniques. No deep learning involved. 
+In this chapter, you will build a sentiment classification model with the more traditional NLP techniques. No deep learning involved. 
 
 # Preparation
 ## Download Data
