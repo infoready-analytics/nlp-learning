@@ -1,5 +1,5 @@
 # Intro
-This section aims to familarise you with the concept of Word Embedding and how it could be used to improve your NLP models. 
+This chapter aims to familarise you with the concept of Word Embedding and how it could be used to improve your NLP models. 
 
 # What is Word Embedding
 As fancy as it sounds, Word Embedding is just another way of converting words into vectors. 
@@ -10,7 +10,7 @@ The "embedding" process is usually a machine learning process to find the best p
 
 Comparing to the meaningless numbers assigned in CountVector, Word Embedding process tries to place (or embed) the words in a way that words with similar meaning are placed close to each other, and words with opposite meanings are placed in the opposite sides of the multi-dimensional embedding space. 
 
-This particular feature of word embedding allows us to do things that were not possible with the basic NLP techniques we've tried in the previous section. 
+This particular feature of word embedding allows us to do things that were not possible with the basic NLP techniques we've tried in the previous chapter. 
 
 # Training Word Embedding Model
 Training Word Embedding basically means taking a large corpus of text and try placing all the words from the text into an embedding space. This involves running a neural network model through huge amount of text data. It's usually very expensive and time consuming. 
@@ -81,4 +81,4 @@ Word Embedding is a huge step up from TF-IDF in a few ways:
 - It compresses the feature space. TFIDF or CountVector generates a matrix of X by N where X is the number of examples and N is the number of unique words in the corpus. With a large corpus, N can be prohibitively big. This severely limits the application of the model. Whereas Word Embedding always place words into a fixed length feature space. 
 - It eliminates the need for comprehensive pre-processing. Before word embedding, NLP model's performance depends a lot of the pre-processing techinques. Partly because the feature space was so big, it was necessary to simplify and discard less important information, by removing some words or lemmatising some others. But some information was lost in the process regardless. With the huge vocabulary and fixed feature space of word embeddings, such trade-off is usually unnecessary. 
 
-However it should be clear by now, that the main drawback is that it's not order or context aware. In the following sections we will see how more advanced NLP models handle context. 
+However it should be clear by now, that the main drawback is that it's not order or context aware. In the following chapters we will see how more advanced NLP models handle context. 
