@@ -18,14 +18,15 @@ Feature engineering is huge part of NLP, once we get text into vectorised repres
 
 Go to [this page](context_aware_embedding.md) to get started. 
 
-
 ## 4. Transfer Learning and Fine-tuning
-WIP
+The utilisation of transfer learning was a big step forward for deep learning in NLP. Most of the state of the art models in the past few years utilised transfer learning. In this chapter we will explore how transfer learning works in practice. 
 
-## 5. Pre-trained Pipelines
-There are pre-trained, pre-built, ready-to-use pipeline out there that will greatly simplify some standard NLP tasks for you. We will try some of them in this chapter. And compare the results to your previous models. 
+Go to [this page](transfer_learning.md) to get started. 
 
-Go to [this page](pre-trained_pipeline.md) to get started. 
+## 5. Pre-trained Models
+In the right circumstances, utilising the right type of pre-trained NLP models could greatly boost productivity. They come in different flavours: saved model weights that you could download, or cloud hosted models that expose a few API endpoints. We will explore a few examples in this chapter. 
+
+Go to [this page](pre-trained_models.md) to get started. 
 
 ## 6. Topic Modelling
 WIP
