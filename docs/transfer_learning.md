@@ -11,7 +11,7 @@ Now we look at exactly what tasks were performed at each step in the context of 
 ## Pre-training
 You can read about it here: https://github.com/google-research/bert#what-is-bert
 
-BERT performe two tasks during pre-training: 
+BERT perform two tasks during pre-training: 
 1. Masked word prediction
 2. Next sentence prediction
 
@@ -20,6 +20,8 @@ These tasks were performed on huge volume of texts: Wikipedia (2.5B words) + Boo
 They are not directly related to the sentiment classification. They store generic knowledge about English language in the model, which is a major part of BERT's prediction power. 
 
 What's more, these pre-training tasks are **unsupervised**. Making it feasible to learn from the huge amount of text data. (Imagine the cost to obtain the same amount of labelled data for **supervised** learning)
+
+In practice, we probably never need to pre-train our own NLP model. It's almost always easier to start with a baseline that's pre-trained already. 
 
 ## Fine Tuning
 To train a generic sentiment model, we "fine tune" the pre-trained BERT model with a labelled sentiment dataset. 
