@@ -1,0 +1,2 @@
+# Intro
+When talking about NLP models, there's usually a distinction between "pre-train" and "fine-tune". In this chapter, we will instead use "pre-trained models" to refer to all types of models that are either pre-trained or fine-tuned and are ready to use. 
