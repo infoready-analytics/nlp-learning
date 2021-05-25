@@ -27,6 +27,9 @@ LDA analyses the co-occurrence of words over a collection of documents. Therefor
 
 The final and probably most limiting feature of LDA is probably that you have to specify the exact number of topics beforehand. This is tricky because we resort to LDA when we knew little about the data. Number of topics is just one of the hyperparameter you could tune to achieve better outcome, and there are metrics like coherence score to help you determine the optimal hyper parameters. But again, good coherence score doesn't guarantee good outcome from a human understanding point of view. 
 
+You can find an examples for LDA tuning here:
+https://towardsdatascience.com/evaluate-topic-model-in-python-latent-dirichlet-allocation-lda-7d57484bb5d0
+
 ## Task
 Apply LDA topic modelling to the movie review dataset. Try interpreting the output. 
 
