@@ -29,7 +29,9 @@ In the right circumstances, utilising the right type of pre-trained NLP models c
 Go to [this page](pre-trained_models.md) to get started. 
 
 ## 6. Topic Modelling
-WIP
+So far we have been playing in the supervised territory. As an example, sentiment classification has a clear goal and benchmark in mind. There are times we have zero idea about the text data, and we want to explore and produce some initial insights. Topic modelling is usually where we start. 
+
+Go to [this page](topic_modelling.md) to get started. 
 
 ## 7. Clustering
 WIP
